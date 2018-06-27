@@ -273,7 +273,7 @@ b{
 
 .sales #left-side img{
 	height: 150px;
-	width: 300px;
+	width: 400px;
 	min-height: 300px;
 	display: inline-block;
 	margin-left: 25px;
@@ -305,6 +305,14 @@ b{
 	.sales #right-side h1{
 		font-size: 25px;
 
+	}
+
+	.sales #left-side img{
+		height: 150px;
+		width: 250px;
+		min-height: 200px;
+		display: inline-block;
+		margin-left: 25px;
 	}
 }
 
