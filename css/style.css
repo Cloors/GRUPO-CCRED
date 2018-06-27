@@ -261,3 +261,237 @@ b{
 		margin-top: 50px;
 	}
 }
+
+/*SECCIÖN DE VENTAS*/
+.sales{
+	padding: 120px 30px 80px 80px;
+	min-height: 600px;
+	margin-top: 100px;
+	color: #ffffff;
+	background-color: #e67e22;
+}
+
+.sales #left-side img{
+	height: 150px;
+	width: 400px;
+	min-height: 300px;
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.sales #right-side{
+	margin-bottom: 50px;
+}
+
+.sales #right-side h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+.sales #right-side p{
+	font-size: 17px;
+	text-align: justify;
+	line-height: 30px;
+	margin-top: 20px;
+}
+
+@media(max-width: 768px){
+	.sales{
+		padding: 30px;
+		min-height: 500px;
+		margin-top: -10px;
+	}
+
+	.sales #right-side h1{
+		font-size: 25px;
+
+	}
+}
+
+/*SECCIÓN DE PRECIOS*/
+
+.pricing{
+	padding: 50px 80px;
+	text-align: center;
+	background-color: #7f8c8d;
+}
+
+.pricing h2, .pricing p{
+	color: #fff;
+}
+
+.pricing p{
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+.pricing .packages{
+	padding: 30px;
+	border: 1px solid #ccc;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+.packages li{
+	display: block;
+	padding: 5px;
+}
+
+.packages h4,
+.packages h1,
+.packages b{
+	color: #4c4c4c;
+}
+
+.packages p,
+.packages li{
+	color: #737373;
+}
+
+.packages button{
+	margin-top: 10px;
+}
+
+@media(max-width: 546px){
+	.pricing{
+		padding: 50px 0px;
+	}
+
+	.pacakges{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*MISIÓN EMPIEZA AQUÍ*/
+
+.mission{
+	padding: 80px;
+	min-height: 600px;
+	padding-top: 120px;
+}
+
+.mission #left-side{
+	margin-bottom: 50px;
+}
+
+.mission #left-side h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+.mission #left-side p{
+	margin-top: 20px;
+	font-size: 17px;
+	text-align: justify;
+	line-height: 30px;
+}
+
+.mission #right-side img{
+	min-height: 300px;
+	width: 450px;
+	margin-left: 100px;
+}
+
+@media(max-width: 834px){
+	.mission{
+		padding: 80px;
+		min-height: 600px;
+		margin-top: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.mission #right-side img{
+		margin-top: 60px;
+		height: 100%;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.mission #left-side h1{
+		font-size: 17px;
+	}
+}
+
+/*CSS PARA LA SECCIÓN DE CLIENTES*/
+
+.clients{
+	padding: 50px 0px 80px;
+	background-color: #e67e22;
+	text-align: center;
+	color: #ffffff;
+}
+
+.clients h2{
+	color: #ffffff;
+}
+
+.clients p{
+	padding-bottom: 40px;
+}
+
+.clients img{
+	width: 200px;
+	cursor: pointer;
+	margin: 40px 0;
+}
+
+@media(max-width: 768px){
+	.clients p{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+/*CSS PARA TEAM*/
+
+.team{
+	padding: 50px 0px 80px;
+	text-align: center;
+}
+
+.team b,
+h2,
+h4{
+	margin: 20px 0px 20px;
+	color: #4c4c4c;
+}
+
+.team b{
+	font-weight: 600;
+}
+
+.team p{
+	color: #737373;
+}
+
+.team img{
+	height: 150px;
+	width: 150px;
+	margin-top: 80px;
+}
+
+.team i{
+	height: 30px;
+	width: 30px;
+	padding: 5px;
+	font-size: 17px;
+	border-radius: 50%;
+	background-color: #a9db8e;
+	color: #ffffff;
+}
+
+.team i:hover{
+	background-color: #8cc36e;
+}
+
+@media(max-width: 768px){
+	.team p{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
