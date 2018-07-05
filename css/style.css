@@ -503,3 +503,37 @@ h4{
 		margin-right: 20px;
 	}
 }
+
+/*CSS PARA LA SECCIÓN DE CONTACTO*/
+.contacts{
+	padding: 50px 0px 80px;
+	text-align: center;
+	background-color: #3498db;
+}
+
+.contacts p{
+	padding-bottom: 70px;
+	color: #ffffff;
+	margin: 20px 0 20px;
+}
+
+.contacts .input-group{
+	margin-bottom: 25px;
+}
+
+.contacts .form-.control1{
+	border-radius: 0;
+}
+
+.contacts span{
+	border-radius: 0;
+}
+
+.contacts .btn{
+	margin-top: -12px;
+	border-radius: 0;
+	width: 100%;
+	font-size: 15px;
+	background-color: #e67e22;
+	color: #ffffff;
+}
