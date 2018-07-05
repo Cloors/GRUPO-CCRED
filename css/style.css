@@ -508,7 +508,7 @@ h4{
 .contacts{
 	padding: 50px 0px 80px;
 	text-align: center;
-	background-color: #3498db;
+	background-color: #7f8c8d;
 }
 
 .contacts p{
@@ -521,12 +521,12 @@ h4{
 	margin-bottom: 25px;
 }
 
-.contacts .form-.control1{
-	border-radius: 0;
+.contacts .form-control{
+	border-radius: 0 !important;
 }
 
 .contacts span{
-	border-radius: 0;
+	border-radius: 0 !important;
 }
 
 .contacts .btn{
@@ -536,4 +536,53 @@ h4{
 	font-size: 15px;
 	background-color: #e67e22;
 	color: #ffffff;
+}
+
+.contacts .btn:hover{
+	background-color: #f39c12 !important; 
+	color: #ffffff !important;
+}
+
+/*CSS PARA EL FOOTER*/
+.footer{
+	padding: 30px;
+	color: #cccccc;
+	background-color: #000000;
+}
+
+.footer .social{
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding: 2px;
+	margin-bottom: 15px;
+	margin-right: 5px;
+	color: #eee;
+}
+
+.footer input{
+	height: 40px;
+	width: 185px;
+	padding: 5px;
+	border: none;
+	background-color: #cccccc;
+}
+
+.footer .btn{
+	padding: 10px 5px 10px;
+	margin: -3px 0 0 5px;
+	border: none;
+}
+
+@media(max-width: 768px){
+	.footer .btn{
+		margin: -2 0px 0px 5px;
+	}
+}
+
+@media(max-width: 378px){
+	.footer .btn{
+		margin: 8px 10px 10px 5px;
+	}
 }
